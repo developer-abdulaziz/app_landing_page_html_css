@@ -21,6 +21,9 @@ ul,
 ol {
     list-style-type: none;
 }
+html {
+    --white--color: #FFFFFF;
+}
 .container {
     max-width: 80%;
     margin:  0 auto;
@@ -35,8 +38,9 @@ header {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    color: white;
+    color: var(--white--color);
     height: 700px;
+    margin-bottom: 70px;
 }
 /*---------------- menuber ------------- */
 nav {
@@ -51,7 +55,7 @@ nav {
     font-style: normal;
     font-weight: 700;
     font-size: 20px;
-    color: #FFFFFF;
+    color: var(--white--color);
 }
 .nav_items ul  {
     display: flex;
@@ -102,7 +106,7 @@ nav {
     border: 1px solid;
     padding: 8px 20px;
     border-radius: 20px;
-    background: #FFFFFF;
+    background: var(--white--color);
     color: #0F2137;
 }
 .hero_btn a:last-child {
@@ -116,7 +120,7 @@ nav {
     color: #1E3C72;
     border: 1px solid;
     border-radius: 100%;
-    background: #FFFFFF;
+    background: var(--white--color);
     padding: 5px;
     text-align: center;
     
@@ -126,7 +130,7 @@ nav {
     display: flex;
     align-items: center;
     gap: 15px;
-    color: #FFFFFF;
+    color: var(--white--color);
     opacity: 0.6;
     font-size: 24px;
 }
@@ -137,3 +141,27 @@ nav {
     width: 100%;
 }
 /* =========== header section end ============== */
+
+/* ================================ Quality features section start ============================= */
+.quality_features {
+    font-family: 'DM Sans', sans-serif;
+}
+.top_head {
+    text-align: center;
+}
+.top_head h6 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    letter-spacing: 2.1px;
+    text-transform: uppercase;
+    color: #244886;
+}
+.top_head h3 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    letter-spacing: -1.5px;
+    color: #0F2137;
+}
+/* ================================ Quality features section end ============================= */
