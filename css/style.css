@@ -1,3 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&family=Heebo:wght@100;200;300;400;500;600;700;800;900&family=Poppins:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,700&display=swap');
+
+
+/* font-family: 'DM Sans', sans-serif;
+font-family: 'Heebo', sans-serif;
+font-family: 'Poppins', sans-serif; */
+
 
 * {
     margin: 0;
@@ -7,36 +14,126 @@
 
 a {
     text-decoration: none;
+    color: white;
 }
 
 ul,
 ol {
     list-style-type: none;
 }
-
 .container {
     max-width: 80%;
     margin:  0 auto;
 }
-.logo {
-    color: red;
-    background-color: teal;
+
+img {
+    max-width: 100%;
 }
+/* =========== header section start ============== */
+header {
+    background-image: url(../image/banner-1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: white;
+    height: 700px;
+}
+/*---------------- menuber ------------- */
 nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 30px 0px;
+    padding-top: 30px;
+    padding-bottom: 80px;
+}
+.logo a {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    color: #FFFFFF;
 }
 .nav_items ul  {
     display: flex;
     align-items: center;
     gap: 20px;
+
 }
 
+.nav_btn a {
+    font-family: 'DM Sans', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: -0.16px; 
+    border: 1px solid;
+    padding: 8px 20px;
+    border-radius: 20px;
+}
+
+/* --------------- hero section ---------------- */
 .hero {
-    background-image: url(image);
+    display: flex;
+    /* align-items: center; */
+}
+.hero_element {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.hero_element h1 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 85px;
+    font-family: 'DM Sans', sans-serif;
+}
+.hero_element p {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    font-family: 'DM Sans', sans-serif;
+}
+.hero_btn a:first-child {
+    font-family: 'DM Sans', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: -0.16px; 
+    border: 1px solid;
+    padding: 8px 20px;
+    border-radius: 20px;
+    background: #FFFFFF;
+    color: #0F2137;
+}
+.hero_btn a:last-child {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: -0.16px;
+    font-family: 'Heebo', sans-serif;
 }
 .hero_btn i {
-    color: rgb(161, 18, 18);
+    color: #1E3C72;
+    border: 1px solid;
+    border-radius: 100%;
+    background: #FFFFFF;
+    padding: 5px;
+    text-align: center;
+    
 }
+
+.hero_sponsored {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    color: #FFFFFF;
+    opacity: 0.6;
+    font-size: 24px;
+}
+.hero_sponsored .bx{
+    font-size: 20px;
+}
+.hero_img {
+    width: 100%;
+}
+/* =========== header section end ============== */
