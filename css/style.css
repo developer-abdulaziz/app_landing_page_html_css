@@ -96,6 +96,7 @@ nav {
     font-weight: 500;
     font-size: 18px;
     font-family: 'DM Sans', sans-serif;
+    /* line-height: 42px; */
 }
 .hero_btn a:first-child {
     font-family: 'DM Sans', sans-serif;
@@ -148,6 +149,7 @@ nav {
 }
 .top_head {
     text-align: center;
+    margin-bottom: 70px;
 }
 .top_head h6 {
     font-style: normal;
@@ -163,5 +165,57 @@ nav {
     font-size: 36px;
     letter-spacing: -1.5px;
     color: #0F2137;
+}
+
+.features {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.features_item {
+    /* background: yellowgreen; */
+    text-align: center;
+    padding: 20px;
+    /* line-height: 30px; */
+}
+.vector_img img {
+    background: #E4FFEE;
+    color: #40975F;
+    padding: 20px 10px;
+    /* width: 50px;
+    height: 50px; */
+    border-radius: 8px;
+    margin-bottom: 16px;
+    /* width: 100%; */
+}
+.customise_img img {
+    /* background: #E4FFEE; */
+    background: #2563ff44;
+    /* opacity: 0.09; */
+    color: #40975F;
+    padding: 12px 10px;
+    border-radius: 8px;
+    margin-bottom: 16px;
+}
+.quality_img {
+    background: #ff43624b;
+    padding: 8px 10px;
+    border-radius: 8px;
+    margin-bottom: 16px;
+}
+.card_title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    color: #0F2137;
+    /* background-color: yellow; */
+    padding-bottom: 14px;
+}
+.card_text {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    color: #343D48;
 }
 /* ================================ Quality features section end ============================= */
