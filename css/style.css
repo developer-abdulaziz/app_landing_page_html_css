@@ -214,6 +214,7 @@ nav {
     justify-content: center;
     gap: 100px;
     font-family: 'DM Sans', sans-serif;
+    margin-bottom: 100px;
 }
 .app_features > * {
     flex-basis: 100%;
@@ -264,3 +265,34 @@ nav {
 }
 /*============================== Core features section end  ============================*/
 
+
+.features_service {
+    font-family: 'DM Sans', sans-serif;
+}
+
+.service_menu{
+    display: flex;
+    gap: 24px;
+    margin-bottom: 30px;
+    /* width: 33.33%;
+    height: auto; */
+}
+.service_box {
+    display: flex;
+    gap: 16px;
+}
+/* .service_box > * {
+    flex-basis: 100%;
+} */
+.service_content h4 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 23px;
+    margin-bottom: 8px;
+}
+.service_content p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+}
