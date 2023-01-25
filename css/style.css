@@ -23,6 +23,7 @@ ol {
 }
 html {
     --white--color: #FFFFFF;
+    --box-shadow:  rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 .container {
     max-width: 80%;
@@ -186,7 +187,7 @@ nav {
     transition: all .3s ease 0s;
 }
 .features_item:hover {
-    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    box-shadow: var(--box-shadow);
 }
 .features_item img {
     margin-bottom: 5px;
@@ -247,7 +248,7 @@ nav {
     padding: 16px;
 }
 .core_content:hover {
-    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    box-shadow: var(--box-shadow);
 }
 .core_details h5 {
     font-style: normal;
@@ -265,6 +266,7 @@ nav {
 }
 /*============================== Core features section end  ============================*/
 
+/* --================================  features service section start ============================= -- */
 
 .features_service {
     font-family: 'DM Sans', sans-serif;
@@ -273,13 +275,19 @@ nav {
 .service_menu{
     display: flex;
     gap: 24px;
-    margin-bottom: 30px;
+    margin-bottom: 44px;
     /* width: 33.33%;
     height: auto; */
 }
 .service_box {
     display: flex;
     gap: 16px;
+    padding: 16px;
+    transition: all .3s ease 0s;
+}
+
+.service_box:hover {
+    box-shadow: var(--box-shadow);
 }
 /* .service_box > * {
     flex-basis: 100%;
@@ -296,3 +304,4 @@ nav {
     font-weight: 400;
     font-size: 15px;
 }
+/* --================================  features service section end ============================= -- */
