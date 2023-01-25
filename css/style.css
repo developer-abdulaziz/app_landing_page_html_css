@@ -360,11 +360,13 @@ nav {
 
 
 /* ================================ testimonial part start =============================  */
+/* -------------------- */
 .testimonial_features {
     font-family: var(--ffamily--1);
 }
 .testimonial_heading {
     text-align: center;
+    margin-bottom: 63px;
 }
 
 .testimonial_heading h4 {
@@ -382,6 +384,61 @@ nav {
     font-size: 36px;
     letter-spacing: -1.5px;
     color: #0F2137;
+}
+/* ---------------------- */
+.testimonial {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.testimonial > * {
+    flex-basis: 100%;
+}
+.testimonial_box {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+    transition: all .3s ease 0s;
+}
+.testimonial_box:hover {
+    box-shadow: var(--box-shadow);
+}
+.testimonial_icon i {
+    color: #F6C416;
+}
+.testimonial_icon i:nth-child(5) {
+    color: gray;
+}
+.icon_title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    color: #343D48;
+}
+.testimonial_box p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    color: #343D48;
+}
+.client {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+}
+.client_name h4 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    letter-spacing: -0.4px;
+}
+.client_name span {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    letter-spacing: -0.375px;
+    color: #25A0FF;
 }
 
 /* ================================ testimonial part end =============================  */
