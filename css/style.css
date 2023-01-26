@@ -363,6 +363,7 @@ nav {
 /* -------------------- */
 .testimonial_features {
     font-family: var(--ffamily--1);
+    margin-bottom: 100px;
 }
 .testimonial_heading {
     text-align: center;
@@ -442,3 +443,12 @@ nav {
 }
 
 /* ================================ testimonial part end =============================  */
+
+/*=================================== .transaction_app part start  =====================*/
+.transaction_app {
+    background-image: url(../image/transaction\ Bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/*=================================== .transaction_app part end  =====================*/
