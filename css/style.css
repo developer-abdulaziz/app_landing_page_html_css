@@ -211,6 +211,10 @@ nav {
 
 /*============================== Core features section start  ============================*/
 .app_features {
+    background-image: url(../image/pattern.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -307,22 +311,26 @@ nav {
 /* --================================  features service section end ============================= -- */
 
 /* ================================ company features start =============================  */
-.company_features {
+.company_features,
+.transaction_app {
     font-family: var(--ffamily--1);
     display: flex;
     align-items: center;
     gap: 20px;
     margin-bottom: 120px;
 }
-.company_features > * {
+.company_features,
+ .transaction_app > * {
     flex-basis: 100%;
 }
-.company_details {
+.company_details,
+.transaction_app_details {
     display: flex;
     flex-direction: column;
     gap: 20px;
 }
-.company_details h5 {
+.company_details h5,
+.transaction_app_details h5 {
     font-style: normal;
     font-weight: 700;
     font-size: 14px;
@@ -330,28 +338,32 @@ nav {
     text-transform: uppercase;
     color: #244886;
 }
-.company_details h2 {
+.company_details h2,
+.transaction_app_details h2 {
     font-style: normal;
     font-weight: 700;
     font-size: 48px;
     letter-spacing: -1.5px;
     color: #0F2137;
 }
-.company_details p {
+.company_details p,
+.transaction_app_details p {
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
     color: #02073E;
     line-height: 42px;
 }
-.company_btn a {
+.company_btn a,
+.transaction_app_btn a {
     background: #1F3E76;
     color: white;
     border: none;
     padding: 10px 20px;
     border-radius: 50px;
 }
-.company_btn a:hover {
+.company_btn a:hover,
+.transaction_app_btn a:hover {
     background: #1F3E76;
     color: white;
     border: none;
@@ -450,5 +462,67 @@ nav {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    margin-bottom: 100px;
 }
-/*=================================== .transaction_app part end  =====================*/
+/*=================================== transaction_app part end  =====================*/
+
+
+/*=================================== contact part start  =====================*/
+.frequent_question {
+    font-family: var(--ffamily--1);
+    margin-bottom: 100px;
+}
+
+.contact_heading {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* gap: 8px; */
+    margin-bottom: 80px;
+}
+.contact_heading h4{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    text-align: center;
+    letter-spacing: 2.1px;
+    text-transform: uppercase;
+    color: #254887;
+}
+.contact_heading h3 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    text-align: center;
+    letter-spacing: -1.5px;
+    color: #0F2137;
+    padding-bottom: 16px;
+}
+
+.contact_area {
+    display: flex;
+    gap: 100px;
+    /* margin: 0 auto; */
+}
+.contact_box h2 {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    letter-spacing: -0.5px;
+    color: #0F2137;
+    padding-bottom: 10px;
+}
+.contact_content ul{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.contact_content ul li a {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    color: #02073E;
+    opacity: 0.8;
+}
+/*=================================== contact part end  =====================*/
